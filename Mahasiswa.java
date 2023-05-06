@@ -1,15 +1,24 @@
 public class Mahasiswa {
- private String npm;
- private String nama;
+  private String npm;
+  private String nama;
 
- public Mahsiswa() {}
+  public void Mahsiswa() {
+  }
 
- public getNpm() {return npm;}
+  public String getNpm() {
+    return npm;
+  }
 
- public setNpm(String npm) {this.npm = npm;}
+  public void setNpm(String npm) {
+    this.npm = npm;
+  }
 
- public getNama() {return nama;}
+  public String getNama() {
+    return nama;
+  }
 
- public setNama(String nama) {this.nama = nama;}
+  public void setNama(String nama) {
+    this.nama = nama;
+  }
 
 }
